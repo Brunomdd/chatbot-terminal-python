@@ -32,8 +32,6 @@ Comandos especiais no terminal:
 
 historico — exibe conversas anteriores
 
-limpar — apaga o histórico
-
 sair — encerra o programa
 
 🛠 Tecnologias
