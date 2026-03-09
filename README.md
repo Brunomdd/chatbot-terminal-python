@@ -1,42 +1,54 @@
-# chatbot-terminal-python
+# 🤖 Chatbot de Terminal com Ollama
 
-Chatbot de terminal integrado com Ollama API, com histórico persistente em JSON
+Chatbot de terminal desenvolvido em Python integrado com a API do Ollama
+para conversar com modelos de linguagem rodando localmente.
+
+O projeto também salva automaticamente o histórico das conversas em JSON.
 
 ## 📋 Requisitos
 
 - Python 3.8+
-- [Ollama](https://ollama.com) instalado e rodando localmente
+- Ollama instalado e rodando
 
 ## 🚀 Como usar
 
-**1. Clone o repositório**
+Clone o repositório:
 ```bash
 git clone https://github.com/Brunomdd/chatbot-terminal-python.git
+Entre na pasta:
+
+bash
 cd chatbot-terminal-python
+Instale a dependência:
 
-2. Instale a dependência
+bash
 pip install requests
+Inicie o Ollama:
 
-3. Inicie o Ollama com o modelo
+bash
 ollama run llama3.2
+Execute o chatbot:
 
-4. Rode o chatbot
+bash
 python chatbot.py
-
 💬 Funcionalidades
 Conversa com IA local via Ollama
 
-Histórico de conversas salvo automaticamente em JSON
+Histórico persistente em JSON
 
-Comandos especiais no terminal:
+Comandos no terminal
 
-historico — exibe conversas anteriores
+Comandos disponíveis:
 
-sair — encerra o programa
+historico → mostra conversas salvas
+
+sair → encerra o chatbot
 
 🛠 Tecnologias
 Python
 
 Ollama API (HTTP/POST)
 
-JSON para persistência de dados
+Requests
+
+JSON
