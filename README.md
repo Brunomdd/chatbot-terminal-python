@@ -1,6 +1,4 @@
-Aqui está, apenas formatação ajustada — conteúdo 100% seu:
 
-text
 # 🤖 Chat Bot Terminal com Ollama
 
 ## 📌 Sobre o projeto
